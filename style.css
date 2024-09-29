@@ -28,6 +28,9 @@ h6 {
   margin-bottom: 15px;
    text-align: center;
 }
+img{
+  transform: scale(0.5);
+}
 h4 {
   color: #fff;
   font-size: 40px
