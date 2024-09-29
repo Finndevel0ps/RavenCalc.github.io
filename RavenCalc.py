@@ -19,7 +19,7 @@ def set_fullscreen():
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-universe_watermark = """                                 
+raven_watermark = """                                 
                                             ++++++*                             
                                       ++++++++++++++@@                           
                                         @@#++++++++++@@@                         
@@ -54,8 +54,8 @@ def is_valid_expression(expression):
 
 while True:
     clear_console()
-    # Print the universe watermark with vertical color effect
-    print(Colorate.Vertical(Colors.purple_to_blue, universe_watermark, 1))  # Universe watermark
+    
+    print(Colorate.Vertical(Colors.purple_to_blue, raven_watermark, 1))  
     print("")  # Print an empty line
     
     expression = input(Colorate.Vertical(Colors.purple_to_blue, "Enter your expression (e.g., 2 + 3 * (4 - 1)): ", 1)).strip()
