@@ -1,1 +1,1 @@
-This is a simple calculator that I programmed in python (: enjoy!
+Simple calculator made by faranpc and digitaluserr Check out our other projects. (MAIN PROJECT IS FEROTOOL!)
