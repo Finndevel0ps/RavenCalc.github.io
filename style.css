@@ -30,6 +30,8 @@ h6 {
 }
 img{
   transform: scale(0.4);
+   margin-top: 0;
+  margin-bottom: 15px;
 }
 h4 {
   color: #fff;
