@@ -16,8 +16,11 @@ def install_requirements():
 # Call the install function before your main logic
 install_requirements()
 
-# Change the title of the Command Prompt window
-os.system("RavenCalc Made by Faranpc and digitaluserr on discord!")
+# Change the title of the Command Prompt window using ctypes
+def set_console_title(title):
+    ctypes.windll.kernel32.SetConsoleTitleW(title)
+
+set_console_title("RavenCalc Made by Faranpc and digitaluserr on Discord")
 
 hwnd = win32gui.GetForegroundWindow()
 win32gui.ShowWindow(hwnd, win32con.SW_MAXIMIZE)
@@ -38,12 +41,12 @@ universe_watermark = """
                                         @@#++++++++++@@@                         
                                         @@@@*+++++++++@@@                        
                                            #++++++++++@@@@                       
-                                         *++++++++++++@@@@                        
-                                       +++++++++++++++@@@@                        
-                                    ****++++++++++++++#@@@                        
-                                  #******+++++++++++++%@@@                        
-                                ***********+++++++++++@@@@                        
-                              **************+++++++++@@@@@                        
+                                         *++++++++++++@@@@                       
+                                       +++++++++++++++@@@@                       
+                                    ****++++++++++++++#@@@                       
+                                  #******+++++++++++++%@@@                       
+                                ***********+++++++++++@@@@                       
+                              **************+++++++++@@@@@                       
                            ******************+++++++%@@@@             ██████╗  █████╗ ██╗   ██╗███████╗███╗   ██╗     ██████╗ █████╗ ██╗      ██████╗           
                         #**********************++++%@@@@@             ██╔══██╗██╔══██╗██║   ██║██╔════╝████╗  ██║    ██╔════╝██╔══██╗██║     ██╔════╝
                      %###***********************++@@@@@@              ██████╔╝███████║██║   ██║█████╗  ██╔██╗ ██║    ██║     ███████║██║     ██║ 
