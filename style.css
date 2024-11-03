@@ -1,17 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
-/*
-Author: webthemez.com
-Author URL: http://webthemez.com
-*/
-/*************************
-*******Typography******
-**************************/
 body {
   padding-top: 100px;
-  background-image: url(https://github.com/Finndevel0ps/RavenCalc.github.io/blob/main/wallpapersden.com_red-sun_1920x1080.jpg?raw=true);
+  background-image: url(https://github.com/Ferooky/Ferooky/blob/main/background.png?raw=true);
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: #eae9e9;
   margin-top: 0;
   margin-bottom: 15px;
   padding: 20px;
@@ -24,7 +17,7 @@ h3,
 h6 {
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
-  color: #ff0000;
+  color: #eae9e9;
   margin-top: 0;
   margin-bottom: 15px;
    text-align: center;
@@ -35,7 +28,7 @@ img{
   margin-bottom: 15px;
 }
 h4 {
-  color: #fff;
+  color: #eae9e9;
   font-size: 40px
 }
 a {
@@ -44,7 +37,7 @@ a {
   -moz-transition: color 400ms, background-color 400ms;
   -o-transition: color 400ms, background-color 400ms;
   transition: color 400ms, background-color 400ms;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
 }
